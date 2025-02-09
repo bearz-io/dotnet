@@ -6,7 +6,7 @@ public interface IOption
 
     object Value { get; }
 
-    new bool TryGet(out object? value);
+    bool TryGet(out object? value);
 }
 
 public interface IOption<T> : IOption, IEquatable<IOption<T>>
@@ -14,5 +14,5 @@ public interface IOption<T> : IOption, IEquatable<IOption<T>>
 {
     new T Value { get; }
 
-    new bool TryGet(out T? value);
+    bool TryGet(out T? value);
 }

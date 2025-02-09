@@ -3,7 +3,7 @@ using System.Diagnostics.Contracts;
 using System.Runtime.CompilerServices;
 
 #if DFX_CORE
-namespace GnomeStack.Extras.Strings;
+namespace BearzStack.Extras.Strings;
 #else
 namespace System;
 #endif

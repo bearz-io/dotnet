@@ -17,8 +17,8 @@ public readonly struct Void
             case DBNull:
             case Void:
                 return true;
-            // case IOption option:
-            // return option.IsNone;
+            case IOption option:
+                return !option.HasValue;
             default:
                 return false;
         }

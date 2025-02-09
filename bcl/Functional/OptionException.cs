@@ -10,19 +10,16 @@ public class OptionException : System.Exception
 {
     public OptionException()
     {
-        this.TraceId = Activity.Current?.Id ?? string.Empty;
     }
 
     public OptionException(string? message)
         : base(message)
     {
-        this.TraceId = Activity.Current?.Id ?? string.Empty;
     }
 
     public OptionException(string? message, System.Exception? inner)
         : base(message, inner)
     {
-        this.TraceId = Activity.Current?.Id ?? string.Empty;
     }
 
 #if NETLEGACY
@@ -31,11 +28,8 @@ public class OptionException : System.Exception
         System.Runtime.Serialization.StreamingContext context)
         : base(info, context)
     {
-        this.TraceId = info.GetString("TraceId") ?? string.Empty;
     }
 #endif
-
-    public virtual string TraceId { get; set; }
 
     public virtual string Target { get; protected set; } = string.Empty;
 

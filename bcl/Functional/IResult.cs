@@ -21,7 +21,7 @@ public interface IResult<TValue, TError> : IResult, IEquatable<IResult<TValue, T
 
     new TError Error { get; }
 
-    new bool TryGet(out TValue? value);
+    bool TryGet(out TValue? value);
 
-    new bool TryGetError(out TError? error);
+    bool TryGetError(out TError? error);
 }

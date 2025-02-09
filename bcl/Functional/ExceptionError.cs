@@ -8,14 +8,14 @@ namespace Bearz;
 public class ExceptionError : Error
 {
     private readonly Exception? ex;
-    
+
+#pragma warning disable S2933 // false positive. can't be read only since we set it in the constructor.
     private string code = "Error";
 
     public ExceptionError(string message, IInnerError? inner = null)
         : base(message, inner)
     {
         this.ex = null;
-        this.code = "Error";
     }
 
     public ExceptionError(Exception ex)

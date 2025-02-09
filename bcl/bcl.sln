@@ -5,13 +5,19 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearz.Common", "..\cmn\Bearz.Common.csproj", "{354294EB-384F-43E8-9EB2-F12E90CDA72F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearz.Core", "Core\Bearz.Core.csproj", "{C1389501-C25E-41D3-B43F-5B98976E45CE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearz.Bcl.Tests", "Bcl.Tests\Bearz.Bcl.Tests.csproj", "{C753FA0A-1E80-46FC-A31A-5B34C8D00677}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearz.Exec", "Exec\Bearz.Exec.csproj", "{DC4B2E61-8AC2-4CEF-8E75-55AAA355A1FA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearz.Env", "Env\Bearz.Env.csproj", "{355134B3-372D-4989-B59D-38C72F4A8151}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearz.Colors.Primitives", "Colors.Primitives\Bearz.Colors.Primitives.csproj", "{275D1987-D2CE-49AF-ABE4-A6F46A6E55EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearz.Collections", "Collections\Bearz.Collections.csproj", "{2F5DC788-17AF-4A21-A74D-1D930FABA6C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearz.Functional", "Functional\Bearz.Functional.csproj", "{BF2E73FA-7274-4CB6-BFEC-5D71BE59F89B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearz.Secrets", "Secrets\Bearz.Secrets.csproj", "{B9149132-EADA-4262-895B-78B066B675C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,10 +32,6 @@ Global
 		{354294EB-384F-43E8-9EB2-F12E90CDA72F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{354294EB-384F-43E8-9EB2-F12E90CDA72F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{354294EB-384F-43E8-9EB2-F12E90CDA72F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C1389501-C25E-41D3-B43F-5B98976E45CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C1389501-C25E-41D3-B43F-5B98976E45CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C1389501-C25E-41D3-B43F-5B98976E45CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C1389501-C25E-41D3-B43F-5B98976E45CE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C753FA0A-1E80-46FC-A31A-5B34C8D00677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C753FA0A-1E80-46FC-A31A-5B34C8D00677}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C753FA0A-1E80-46FC-A31A-5B34C8D00677}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -42,5 +44,21 @@ Global
 		{355134B3-372D-4989-B59D-38C72F4A8151}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{355134B3-372D-4989-B59D-38C72F4A8151}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{355134B3-372D-4989-B59D-38C72F4A8151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{275D1987-D2CE-49AF-ABE4-A6F46A6E55EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{275D1987-D2CE-49AF-ABE4-A6F46A6E55EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{275D1987-D2CE-49AF-ABE4-A6F46A6E55EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{275D1987-D2CE-49AF-ABE4-A6F46A6E55EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F5DC788-17AF-4A21-A74D-1D930FABA6C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F5DC788-17AF-4A21-A74D-1D930FABA6C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F5DC788-17AF-4A21-A74D-1D930FABA6C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F5DC788-17AF-4A21-A74D-1D930FABA6C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF2E73FA-7274-4CB6-BFEC-5D71BE59F89B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF2E73FA-7274-4CB6-BFEC-5D71BE59F89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF2E73FA-7274-4CB6-BFEC-5D71BE59F89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF2E73FA-7274-4CB6-BFEC-5D71BE59F89B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9149132-EADA-4262-895B-78B066B675C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9149132-EADA-4262-895B-78B066B675C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9149132-EADA-4262-895B-78B066B675C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9149132-EADA-4262-895B-78B066B675C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

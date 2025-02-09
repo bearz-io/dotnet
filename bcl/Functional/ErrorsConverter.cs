@@ -36,19 +36,8 @@ public static class ErrorsConverter
     }
 }
 
-public interface IErrorConverter
-{
-    string Name { get; }
-
-    bool CanConvert(Exception ex);
-
-    Error Convert(Exception ex);
-}
-
 public class DelegateErrorConverter : IErrorConverter
 {
-    public string Name { get; }
-
     private readonly Func<Exception, Error> converter;
 
     private readonly Func<Exception, bool> canConvert;
@@ -59,6 +48,8 @@ public class DelegateErrorConverter : IErrorConverter
         this.canConvert = canConvert;
         this.converter = converter;
     }
+
+    public string Name { get; }
 
     public bool CanConvert(Exception ex)
         => this.canConvert(ex);
