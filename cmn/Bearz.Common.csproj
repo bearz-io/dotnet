@@ -9,6 +9,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <!-- TODO: ship icon -->
     <IsPackable>false</IsPackable>
+    <NoWarn>$(NoWarn);S1144</NoWarn>
   </PropertyGroup>
 
   <ItemGroup Condition="$(NetLegacy) == 'true'">

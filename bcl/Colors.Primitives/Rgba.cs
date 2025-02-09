@@ -78,7 +78,7 @@ public readonly struct Rgba : IRgba, IEquatable<Rgba>
 
     public bool Equals(IRgba? other)
     {
-        return this.R == other?.R && this.G == other?.G && this.B == other?.B && this.A == other?.A;
+        return this.R == other?.R && this.G == other.G && this.B == other.B && this.A == other.A;
     }
 
     public override bool Equals(object? obj)

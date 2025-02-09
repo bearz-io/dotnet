@@ -45,6 +45,7 @@
     <PackageVersion Include="System.CommandLine.Hosting" Version="0.4.0-alpha.22272.1" />
     <PackageVersion Include="System.Memory" Version="4.5.5" />
     <PackageVersion Include="System.Text.Json" Version="9.0.0" />
+    <PackageVersion Include="System.Threading.Tasks.Extensions" Version="4.6.0" />
     <PackageVersion Include="Text.Analyzers" Version="3.11.0-beta1.24225.1" />
     <PackageVersion Include="AsyncFixer" Version="1.6.0" />
     <!-- <PackageVersion Include="Microsoft.CodeAnalysis.PublicApiAnalyzers" Version="*" PrivateAssets="all" /> -->
