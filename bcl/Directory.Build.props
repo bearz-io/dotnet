@@ -1,0 +1,18 @@
+<Project>
+  <!-- See https://aka.ms/dotnet/msbuild/customize for more details on customizing your build -->
+  <Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />
+  <PropertyGroup>
+    <Version>0.0.0</Version>
+    <VersionSuffix>alpha-0</VersionSuffix>
+    <TargetFrameworks>netstandard2.0;net8.0</TargetFrameworks>
+    <TestFx>net8.0;net472</TestFx>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsTrimmable Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net6.0'))">true</IsTrimmable>
+    <!-- Add properties here -->
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(NetLegacy)' == 'true'">
+    <PackageReference Include="Polyfill"  />
+  </ItemGroup>
+</Project>
