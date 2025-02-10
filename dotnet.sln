@@ -36,6 +36,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearz.OS.User", "bcl\OS.Use
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearz.OS.Secrets", "bcl\OS.Secrets\Bearz.OS.Secrets.csproj", "{29E991C0-2C40-41E7-8C1B-2224B300D4CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearz.Text.DotEnv", "bcl\Text.DotEnv\Bearz.Text.DotEnv.csproj", "{CD230C36-B6FE-4C44-BF55-40B5A03E063E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,6 +104,10 @@ Global
 		{29E991C0-2C40-41E7-8C1B-2224B300D4CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29E991C0-2C40-41E7-8C1B-2224B300D4CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29E991C0-2C40-41E7-8C1B-2224B300D4CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD230C36-B6FE-4C44-BF55-40B5A03E063E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD230C36-B6FE-4C44-BF55-40B5A03E063E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD230C36-B6FE-4C44-BF55-40B5A03E063E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD230C36-B6FE-4C44-BF55-40B5A03E063E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -121,6 +127,7 @@ Global
 		{23DB24E5-BBB3-4358-BEE8-0F242DA47F65} = {ED8D7D28-4292-44C9-ACE2-A1C40CD379CE}
 		{C2C4F195-34F9-4779-A858-ABD9B5E5AA48} = {ED8D7D28-4292-44C9-ACE2-A1C40CD379CE}
 		{29E991C0-2C40-41E7-8C1B-2224B300D4CF} = {ED8D7D28-4292-44C9-ACE2-A1C40CD379CE}
+		{CD230C36-B6FE-4C44-BF55-40B5A03E063E} = {ED8D7D28-4292-44C9-ACE2-A1C40CD379CE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F0274BB4-D145-419A-BACC-DCA7336E57C2}

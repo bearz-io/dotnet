@@ -401,6 +401,7 @@ dotnet_diagnostic.RS0016.severity = none #
 dotnet_diagnostic.RS0037.severity = none # 
 
 dotnet_diagnostic.S125.severity = none # code in comments are fine when they illustrate issues.
+dotnet_diagnostic.S127.severity = none # allow incrementing index inside loop.
 dotnet_diagnostic.S4035.severity = none # There are cases where its fine not to seal and not implement IEqualityComparer
 dotnet_diagnostic.S1117.severity = none # I'm fine with hiding variables of the same name by using the 'this' keyword.
 dotnet_diagnostic.S1135.severity = none # a analyzer should not create a warning for @#$@#$ TODOS.

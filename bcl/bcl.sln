@@ -25,6 +25,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearz.OS.Users", "OS.User\B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearz.OS.Secrets", "OS.Secrets\Bearz.OS.Secrets.csproj", "{F620D4E1-9F33-4121-A8E1-13519EC552B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearz.Text.DotEnv", "Text.DotEnv\Bearz.Text.DotEnv.csproj", "{5111AF8C-F13D-4459-ABEA-60FEC71CE2A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "@config", "@config", "{20F0EEED-82C0-4AF1-936F-A7AACA7F20EF}"
+	ProjectSection(SolutionItems) = preProject
+		..\LICENSE.md = ..\LICENSE.md
+		..\justfile = ..\justfile
+		..\Directory.Build.props = ..\Directory.Build.props
+		..\Directory.Packages.props = ..\Directory.Packages.props
+		..\.gitignore = ..\.gitignore
+		..\.editorconfig = ..\.editorconfig
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,5 +90,9 @@ Global
 		{F620D4E1-9F33-4121-A8E1-13519EC552B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F620D4E1-9F33-4121-A8E1-13519EC552B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F620D4E1-9F33-4121-A8E1-13519EC552B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5111AF8C-F13D-4459-ABEA-60FEC71CE2A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5111AF8C-F13D-4459-ABEA-60FEC71CE2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5111AF8C-F13D-4459-ABEA-60FEC71CE2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5111AF8C-F13D-4459-ABEA-60FEC71CE2A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
