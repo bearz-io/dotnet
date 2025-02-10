@@ -25,11 +25,10 @@
   <PropertyGroup>
     <CoreFx>net8.0</CoreFx>
     <NetStandardFx>netstandard2.0</NetStandardFx>
-    <BaselineNetFx>net472</BaselineNetFx>
+    <NetFx>net472</NetFx>
 
     <AppFx>net9.0</AppFx>
     <BclFx>$(NetStandardFx);$(CoreFx)</BclFx>
-    <NetFx>$(BaselineNetFx);$(CoreFx)</NetFx>
     
     <Windows>false</Windows>
     <Linux>false</Linux>

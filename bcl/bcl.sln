@@ -37,6 +37,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "@config", "@config", "{20F0
 		..\.editorconfig = ..\.editorconfig
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearz.Crypto", "Crypto\Bearz.Crypto.csproj", "{B88DE2D1-C708-43D0-93ED-EB0CD5D6548C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearz.Crypto.X509", "Crypto.X509\Bearz.Crypto.X509.csproj", "{9CE72679-EA92-43AE-9B1A-1804BA231E20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -94,5 +98,13 @@ Global
 		{5111AF8C-F13D-4459-ABEA-60FEC71CE2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5111AF8C-F13D-4459-ABEA-60FEC71CE2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5111AF8C-F13D-4459-ABEA-60FEC71CE2A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B88DE2D1-C708-43D0-93ED-EB0CD5D6548C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B88DE2D1-C708-43D0-93ED-EB0CD5D6548C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B88DE2D1-C708-43D0-93ED-EB0CD5D6548C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B88DE2D1-C708-43D0-93ED-EB0CD5D6548C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CE72679-EA92-43AE-9B1A-1804BA231E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE72679-EA92-43AE-9B1A-1804BA231E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE72679-EA92-43AE-9B1A-1804BA231E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE72679-EA92-43AE-9B1A-1804BA231E20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
